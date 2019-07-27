@@ -18,7 +18,7 @@ In this tutorial, we will learn
 1. Getting Started
 2. Select Starter
 3. Creating a new post
-4. Run & build a blog
+4. Run & build the blog
 
 ### Getting Started
 
@@ -172,7 +172,7 @@ Now you can execute this script like this.
 npm run create
 ```
 
-### Run & build a blog
+### Run & build the blog
 
 To run this blog in development with hot-reloading use this command.
 
