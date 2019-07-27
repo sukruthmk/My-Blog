@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
+  title: 'Blog by Sukruth M K',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -30,11 +30,11 @@ module.exports = {
     bio: 'I’m a full stack developer and hobby designer',
     contacts: {
       email: 'sukruthkrishna@gmail.com',
-      telegram: '#',
+      telegram: '',
       twitter: 'sukruthmk',
       github: 'sukruthmk',
-      rss: '#',
-      vkontakte: '#'
+      rss: '',
+      vkontakte: ''
     }
   }
 };
