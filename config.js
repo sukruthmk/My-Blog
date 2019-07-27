@@ -25,14 +25,14 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Sukruth M K',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'I’m a full stack developer and hobby designer',
     contacts: {
-      email: '#',
+      email: 'sukruthkrishna@gmail.com',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'sukruthmk',
+      github: 'sukruthmk',
       rss: '#',
       vkontakte: '#'
     }
