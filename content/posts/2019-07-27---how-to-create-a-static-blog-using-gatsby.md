@@ -11,14 +11,14 @@ tags:
 description: A tutorial on creating a static blog using Gatsby and creating a new post
 ---
 
-There are many static site generators avaialble. But I felt Gatsby is very easy to learn and maintain.
+There are many static site generators available. But I felt Gatsby is very easy to learn and maintain.
 
-In this tutorial we will learn
+In this tutorial, we will learn
 
 1. Getting Started
 2. Select Starter
 3. Creating a new post
-4. Run & build blog
+4. Run & build a blog
 
 ### Getting Started
 
@@ -87,7 +87,7 @@ Example like this
         └── 2016-01-09---new-blog-post.md
 ```
 
-In the markdown file we need to define these properties at the top.
+In the markdown file, we need to define these properties at the top.
 
 ```
 ---
@@ -105,7 +105,7 @@ description: "My first blog post"
 Hello World
 ```
 
-This will display a blog post with title `New Blog Post` and content `Hello World`
+This will display a blog post with the title `New Blog Post` and content `Hello World`
 
 To ease up the process I added this node.js script to populate a new post file
 
@@ -149,14 +149,14 @@ prompt.get(["title", "category", "description"], (err, result) => {
 });
 ```
 
-This file takes 3 inputs title, category and description. It automatically generates a markdown file with these values.
+This file takes 3 inputs title, category, and description. It automatically generates a markdown file with these values.
 
 Add these dependencies to package.json
 ```shell
 npm install prompt moment underscore.string js-yaml fs --save-dev
 ```
 
-Add this script to package.json file like this
+Add this script to package.json file like this.
 
 ```json
 {
@@ -166,15 +166,15 @@ Add this script to package.json file like this
 }
 ```
 
-Now you can execute this script using
+Now you can execute this script like this.
 
 ```shell
 npm run create
 ```
 
-### Run & build blog
+### Run & build a blog
 
-To run this blog in development with hot-reloading use this command
+To run this blog in development with hot-reloading use this command.
 
 ```shell
 gatsby develop
@@ -188,10 +188,10 @@ To create production build use this command
 gatsby build
 ```
 
-To run the production build use this
+To run the production build, use this command.
 
 ```shell
 gatsby serve
 ```
 
-In next post I will explain more detail on deployment and adding other plugins to Gatsby
+In the next post, I will explain more detail on deployment and adding other plugins to Gatsby.
