@@ -14,7 +14,8 @@
     "lint": "concurrently \"yarn run lint:js\" \"yarn run lint:scss\" \"yarn flow\"",
     "test": "jest --config ./jest/jest-config.js",
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
-    "test:watch": "jest --watch --config ./jest/jest-config.js"
+    "test:watch": "jest --watch --config ./jest/jest-config.js",
+    "create": "node create.js"
   },
   "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
   "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
@@ -109,7 +110,6 @@
     "jest-cli": "24.8.0",
     "js-yaml": "^3.13.1",
     "lost": "8.3.1",
-    "mkdirp": "^0.5.1",
     "moment": "^2.24.0",
     "postcss-pxtorem": "4.0.1",
     "prompt": "^1.0.0",
