@@ -151,6 +151,11 @@ prompt.get(["title", "category", "description"], (err, result) => {
 
 This file takes 3 inputs title, category and description. It automatically generates a markdown file with these values.
 
+Add these dependencies to package.json
+```shell
+npm install prompt moment underscore.string js-yaml fs --save-dev
+```
+
 Add this script to package.json file like this
 
 ```json
