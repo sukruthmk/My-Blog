@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Sukruth M K]]></title><description><![CDATA[Blog by Sukruth M K]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jul 2019 23:26:38 GMT</lastBuildDate><item><title><![CDATA[How to create a static blog using Gatsby]]></title><description><![CDATA[A tutorial on creating a static blog using Gatsby and creating a new post]]></description><link>https://lumen.netlify.composts/how-to-create-a-static-blog-using-gatsby/</link><guid isPermaLink="false">https://lumen.netlify.composts/how-to-create-a-static-blog-using-gatsby/</guid><pubDate>Sat, 27 Jul 2019 21:26:56 GMT</pubDate><content:encoded>&lt;p&gt;There are many static site generators available. But I felt Gatsby is very easy to learn and maintain.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Sukruth M K]]></title><description><![CDATA[Blog by Sukruth M K]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 08 Aug 2019 06:02:50 GMT</lastBuildDate><item><title><![CDATA[How to create a static blog using Gatsby]]></title><description><![CDATA[A tutorial on creating a static blog using Gatsby and creating a new post]]></description><link>https://lumen.netlify.composts/how-to-create-a-static-blog-using-gatsby/</link><guid isPermaLink="false">https://lumen.netlify.composts/how-to-create-a-static-blog-using-gatsby/</guid><pubDate>Sat, 27 Jul 2019 21:26:56 GMT</pubDate><content:encoded>&lt;p&gt;There are many static site generators available. But I felt Gatsby is very easy to learn and maintain.&lt;/p&gt;
 &lt;p&gt;In this tutorial, we will learn&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Getting Started&lt;/li&gt;
@@ -125,4 +125,86 @@ prompt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gatsby build&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;To run the production build, use this command.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gatsby serve&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;In the next post, I will explain more detail on deployment and adding other plugins to Gatsby.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;In the next post, I will explain more detail on deployment and adding other plugins to Gatsby.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Connect Four Coding Challenge]]></title><description><![CDATA[My thoughts on developing a Connect Four game using JavaScript]]></description><link>https://lumen.netlify.composts/connect-four-coding-challenge/</link><guid isPermaLink="false">https://lumen.netlify.composts/connect-four-coding-challenge/</guid><pubDate>Mon, 12 Nov 2018 07:05:20 GMT</pubDate><content:encoded>&lt;p&gt;I got a coding challenge from an E-commerce company in the bay area. This was for a Frontend developer position. The challenge was simply to develop a connect four game using only HTML, CSS and Javascript. This is the most common board game.&lt;/p&gt;
+&lt;p&gt;It is a two-player connection game in which the players first choose a color and then take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one’s own discs. Connect Four is a solved game. The first player can always win by playing the right moves. [Source Wikipedia]&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 600px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/7be202fb8678db23d6322dd618a6231a/82472/connect-four-game.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABAv/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFewwhhl//EABoQAQEAAgMAAAAAAAAAAAAAAAIBAAMREiL/2gAIAQEAAQUCDSNVmLZu5C8pXrdluf/EABkRAAEFAAAAAAAAAAAAAAAAAAABAhESMf/aAAgBAwEBPwGmqQ0//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEREyL/2gAIAQIBAT8BscpGz//EABsQAAIBBQAAAAAAAAAAAAAAAAABEQIxMnGh/9oACAEBAAY/AphFuGNItDZJ/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERIVGBkf/aAAgBAQABPyFMZ3VNRIFZ80NpyFgMMSn/2gAMAwEAAgADAAAAEA8//8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQMBAT8QAkf/xAAVEQEBAAAAAAAAAAAAAAAAAAAREP/aAAgBAgEBPxACx//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExQXHB/9oACAEBAAE/EHBSeDTn5lasDQg3Nc+YzAQ4LPu+4eEJENTBd1KXybzXyNhn/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/blog/static/7be202fb8678db23d6322dd618a6231a/01472/connect-four-game.webp 240w,
+/blog/static/7be202fb8678db23d6322dd618a6231a/222bd/connect-four-game.webp 480w,
+/blog/static/7be202fb8678db23d6322dd618a6231a/965c5/connect-four-game.webp 600w&quot;
+          sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/blog/static/7be202fb8678db23d6322dd618a6231a/3bc27/connect-four-game.jpg 240w,
+/blog/static/7be202fb8678db23d6322dd618a6231a/98431/connect-four-game.jpg 480w,
+/blog/static/7be202fb8678db23d6322dd618a6231a/82472/connect-four-game.jpg 600w&quot;
+          sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+          type=&quot;image/jpeg&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/blog/static/7be202fb8678db23d6322dd618a6231a/82472/connect-four-game.jpg&quot;
+          alt=&quot;Connect 4 Image&quot;
+          title=&quot;Connect 4 Image&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The interesting part was to develop this game within 4 hours from scratch. I had to code the game in HackerEarth IDE which does not allow copying of content. It would be much faster if I could code in my IDE and then copy it to HackerEarth IDE. I took less than 3 hours to complete the game and it came out good.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 459px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/062c7/sukruth-connect-four-game.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 102.8322440087146%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsSAAALEgHS3X78AAAD3ElEQVQ4y4VU3WtbZRw+g4Ei2z/goLBeDCYTh+LFJlIRoQyrCNaMaesEqVduCrtTWB0Tb2QT3W66XTi66SiTMh12S7WFfqzbhCRN833StDlpk54spG0+Ttp8Pv6etz01hYCB8L7n/Xh+z+95fr9Xg/wajQaax42NDSzEFrC4uAjDMLCwIHP5G3EDm5ubaHXH/mn2pHmjWqkgFApievohZmZm4PP7EQgGMPHoHxRtwBZgCpCL9kY+n0cmk0FufR1W0YJlWViXeblaBcplIG3yEBq5dTQ4boM2s9Wao5grK3j8+BGmJicx6hxFKBiE84ETD2VtTVKvPRhB7e+/AL8XjVQSrbJTKVckxXq9rhZqtZoa7e/mC+XtsSp73Oc67zaf0WjA3Nwc5ufnEY/H4fV6kUwm1cjvSCSCoDBdWlqCd3YWy8vL8IumsVhMmTYra4VC4b+U6Vo4HFaXeTgUCiGdTquR37wUjUaxInIQ2DRN6Lqu3GcQrhWLxd0aEoxmrK2tqRIha4LQEAIQmAYxi1KphEQioc5zn0yrNM0GJLrb7VaRGJlzHiJrAgQCAfh8PhXA4/GoNcrBDCiHy+VSRHYAOSH11dVV5HI5FZ0Rx8bGFItsNotUKrVV7MKeElFjrlM7ZmcbqACZAk0hu5hEJ4Obg4PQNA0fnTqFpATwy35CLs553EiIdvZ5BqAprN8dQNrOTbJkZEMujk9N48DhF3Dx0mWYIomeWkE6X0BgaRnZQlHVKxnSKEpDUjuApEvNKH5WUtSlXxGLwnq7A7h7B5sXv0bpiz5UnX+i1PUGcuOj6O7pwTf951VHRQWwwi5qNoW0KfJ8JAy3HkVm4CrqkrL1zpvAi23A889h48P3pGo1eHodSo5D7e3wR3S45HxLU7hILQwpkVqxAOtsHxDyw3NrEE9++B5FabV7fZ+gLFn0X7iAX4aGgKcmzOE7u01hfZEhtYixbMjw52toCIvM+yew/2A79u7bh27HScWsp7cXe/fswaGjR1HofA1VWSuPjmwBSttqLBFqyNJ4Kq+JbiRQ880CnceBX2/g83Pn8Onp07g9PIxXjx3D0B/38G73Bzh7vh+4MQB0idaJuHp5hOoWIIuWDtMYuvxECviwMLhy/Tq+PHMGXQ4Hqnd/A15/CRj5HfWTXcC3X+G7H3/CkZdfgS7taT8oKmV2gF35LKFrAwMqvROdnTjY1gbtmWcR/tihTCl81gNrv0h//Aje6uhQ55z37++8VMoUVjw7gDXJOSNNTEwgL52jWk5aTWoD5clxpVPF45I0DZhSi9NTU7ueOa3VM97q1/i/722cfwELg7p9HNQPlgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/01472/sukruth-connect-four-game.webp 240w,
+/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/48c89/sukruth-connect-four-game.webp 459w&quot;
+          sizes=&quot;(max-width: 459px) 100vw, 459px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/0783d/sukruth-connect-four-game.png 240w,
+/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/062c7/sukruth-connect-four-game.png 459w&quot;
+          sizes=&quot;(max-width: 459px) 100vw, 459px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/062c7/sukruth-connect-four-game.png&quot;
+          alt=&quot;Game Screenshot&quot;
+          title=&quot;Game Screenshot&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You can check this git repo for my code. This is a better version than the one I coded for the challenge.&lt;br&gt;
+&lt;a href=&quot;https://github.com/sukruthmk/Connect-Four&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://github.com/sukruthmk/Connect-Four&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also, check out the game here. I hope you like it.&lt;br&gt;
+&lt;a href=&quot;http://sukruthmk.com/Connect-Four/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://sukruthmk.com/Connect-Four/&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
