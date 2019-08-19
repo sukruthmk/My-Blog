@@ -1,4 +1,145 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Sukruth M K]]></title><description><![CDATA[Blog by Sukruth M K]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 08 Aug 2019 06:02:50 GMT</lastBuildDate><item><title><![CDATA[How to create a static blog using Gatsby]]></title><description><![CDATA[A tutorial on creating a static blog using Gatsby and creating a new post]]></description><link>https://lumen.netlify.composts/how-to-create-a-static-blog-using-gatsby/</link><guid isPermaLink="false">https://lumen.netlify.composts/how-to-create-a-static-blog-using-gatsby/</guid><pubDate>Sat, 27 Jul 2019 21:26:56 GMT</pubDate><content:encoded>&lt;p&gt;There are many static site generators available. But I felt Gatsby is very easy to learn and maintain.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Sukruth M K]]></title><description><![CDATA[Blog by Sukruth M K]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 19 Aug 2019 00:03:43 GMT</lastBuildDate><item><title><![CDATA[How to deploy React apps to Netlify]]></title><description><![CDATA[Steps to build a production React app and deploy it to Netlify]]></description><link>https://lumen.netlify.composts/how-to-deploy-react-apps-to-netlify/</link><guid isPermaLink="false">https://lumen.netlify.composts/how-to-deploy-react-apps-to-netlify/</guid><pubDate>Sun, 18 Aug 2019 21:22:31 GMT</pubDate><content:encoded>&lt;p&gt;If you are a React developer, then you might have come across a situation to deploy it to a live site for testing purpose. There are various options available for deploying a React app. I love Netlify because of its simplicity and lambda functions.&lt;/p&gt;
+&lt;p&gt;First, you need to create a Netlify account. Netlify offers a free plan and you can register here.. &lt;a href=&quot;https://app.netlify.com/signup&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Netlify Signup&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are two ways to deploy a React app to Netlify. One way is through Netlify CLI and another way is with Netlify website. I am going to talk only about Netlify CLI option since it’s more suited for developers.&lt;/p&gt;
+&lt;h5 id=&quot;netlify-cli&quot;&gt;&lt;a href=&quot;#netlify-cli&quot; aria-label=&quot;netlify cli permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Netlify CLI&lt;/h5&gt;
+&lt;p&gt;First, we will install Netlify CLI globally. Since we might want to use it across different projects.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; netlify-cli -g&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Once we installed Netlify CLI. We need to create a production build of our React app. Use this command to create the build from the root of your project.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run build&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will create a &lt;code class=&quot;language-text&quot;&gt;./build&lt;/code&gt; folder which we will use it for deployment.&lt;/p&gt;
+&lt;p&gt;Next, we run this command to start the deployment process.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;netlify deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you are running this for the first time you might get a popup saying login to your Netlify account like this.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 800px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/cc4eb9662765463d890c863d77ac0f43/8ff1e/netlify-auth-popup.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABlklEQVQoz2MQUNTgV1Dnk1PhllaS1zO2cPU2c/YAInMXT3NXLygCssFIXF2HV1ZZQEGNS1LeNSCUgUdGEYgE5FUZeIVzy6vfffhw5/6DB4+ffPz0+dv371+/fgOhb99//AQBl4BQJmFJoGYmYSlH3yAGURUtIJJU12UVla5oaPn///+Pj59/fPn6HQh+AMHPb2D679+/QCnfiFhuaUVJDT1eGSXPkEiGs5eugNDlq6fPX7r16PH2Zw9X37994e2r///+//rz+z8quHn33ukLl84BFV+8fP32HYbf//5DENDkT79+bXhwZ+W9W6dfvfjz6/eXb99//f4DQn/+/P4DYvz++w+uHshmAPoMjr58//Hv91+g8K+fvz9///H1+08giYKQFH/9/oPh09dvyOjD169A9PHrVzRxTAR0F8O////JQ3///WPILKnIKq3MLq3MgiGgCH4EVJOSX9w5aSoDs7AUh4Q8i6g0i4g0s4gUs6gUg6A4gwA+xCQkycDOb+HixSCoqA5EwHiHI4gIHiSsrMkBTGGBYQCLzZPYRDXR0gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/blog/static/cc4eb9662765463d890c863d77ac0f43/01472/netlify-auth-popup.webp 240w,
+/blog/static/cc4eb9662765463d890c863d77ac0f43/222bd/netlify-auth-popup.webp 480w,
+/blog/static/cc4eb9662765463d890c863d77ac0f43/0cbce/netlify-auth-popup.webp 800w&quot;
+          sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/blog/static/cc4eb9662765463d890c863d77ac0f43/0783d/netlify-auth-popup.png 240w,
+/blog/static/cc4eb9662765463d890c863d77ac0f43/782f4/netlify-auth-popup.png 480w,
+/blog/static/cc4eb9662765463d890c863d77ac0f43/8ff1e/netlify-auth-popup.png 800w&quot;
+          sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/blog/static/cc4eb9662765463d890c863d77ac0f43/8ff1e/netlify-auth-popup.png&quot;
+          alt=&quot;Netlify auth popup&quot;
+          title=&quot;Netlify auth popup&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Once you have authorized follow these steps to deploy.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In the console, if it says &lt;strong&gt;This folder isn’t linked to a site yet. What would you like to do?&lt;/strong&gt;. Select the option &lt;strong&gt;Create &amp;#x26; configure a new site&lt;/strong&gt;. Since we are creating a new site&lt;/li&gt;
+&lt;li&gt;Next, choose a name for the site. I’ll type &lt;code class=&quot;language-text&quot;&gt;portfolio on Netlify&lt;/code&gt; (You can type any available name which you like).&lt;/li&gt;
+&lt;li&gt;Now it will ask for the Netlify account which you want to use, So, select your account here.&lt;/li&gt;
+&lt;li&gt;After that step, we will be asked to enter the deployment path. So, just type &lt;code class=&quot;language-text&quot;&gt;./build&lt;/code&gt; in the command prompt.&lt;/li&gt;
+&lt;li&gt;Now, our site will get created and will have a draft URL which we use to test.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now once everything is tested and looks good with draft URL. We will move on to deployment in production. Use this command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;netlify deploy --prod&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It will ask again to enter the deployment path. Just enter &lt;code class=&quot;language-text&quot;&gt;./build&lt;/code&gt; again.&lt;/p&gt;
+&lt;p&gt;Now we will get the live URL which is where our site will be accessible.&lt;/p&gt;
+&lt;p&gt;Now you might end up with &lt;strong&gt;Page not found error&lt;/strong&gt; when you access the URL.&lt;/p&gt;
+&lt;p&gt;This is happening because we might be using React router in our application.&lt;/p&gt;
+&lt;p&gt;To fix this issue we need to create &lt;code class=&quot;language-text&quot;&gt;_redirects&lt;/code&gt; file inside the &lt;code class=&quot;language-text&quot;&gt;./build&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;After creating the file. Add this content to it.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;/*    /index.html  200&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you are like me and you feel this is an extra step that you have to repeat every time. Since, &lt;code class=&quot;language-text&quot;&gt;./build&lt;/code&gt; the folder is overwritten whenever we create a production build. It becomes painful to create the &lt;code class=&quot;language-text&quot;&gt;_redirects&lt;/code&gt; file now and then.&lt;/p&gt;
+&lt;p&gt;So, I created this script to fix that issue.&lt;/p&gt;
+&lt;p&gt;Just create the &lt;code class=&quot;language-text&quot;&gt;netlify.js&lt;/code&gt; file inside the root of your project.&lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;gist97834580&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-netlify-js&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-javascript &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-netlify-js-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-netlify-js-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;fs&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;fs&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;);&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-netlify-js-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-netlify-js-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-netlify-js-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-netlify-js-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;./build/_redirects&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-netlify-js-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-netlify-js-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;/* /index.html 200 &lt;span class=&quot;pl-cce&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-netlify-js-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-netlify-js-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-netlify-js-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-netlify-js-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-smi&quot;&gt;fs&lt;/span&gt;.&lt;span class=&quot;pl-en&quot;&gt;writeFileSync&lt;/span&gt;(path, content, {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-netlify-js-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-netlify-js-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  encoding&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;utf-8&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-netlify-js-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-netlify-js-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;});&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/sukruthmk/a7ee5a2e9e9352663d1e4b46e3543a0c/raw/5f92562d3161a58ea7d962d297527eedd1e2ca31/netlify.js&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/sukruthmk/a7ee5a2e9e9352663d1e4b46e3543a0c#file-netlify-js&quot;&gt;netlify.js&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;After that, we might need to add this dependency to your project. So, run this command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; i -D fs&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Once this is completed. Update your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; file like this.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;build&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-scripts build &amp;amp;&amp;amp; node netlify.js&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;So, now every time you run build command it will automatically create a &lt;code class=&quot;language-text&quot;&gt;_redirects&lt;/code&gt; file inside the &lt;code class=&quot;language-text&quot;&gt;./build&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;You can also deploy your React app to Github. But, I will cover that in another article.&lt;/p&gt;
+&lt;p&gt;Happy Hacking!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to create a static blog using Gatsby]]></title><description><![CDATA[A tutorial on creating a static blog using Gatsby and creating a new post]]></description><link>https://lumen.netlify.composts/how-to-create-a-static-blog-using-gatsby/</link><guid isPermaLink="false">https://lumen.netlify.composts/how-to-create-a-static-blog-using-gatsby/</guid><pubDate>Sat, 27 Jul 2019 21:26:56 GMT</pubDate><content:encoded>&lt;p&gt;There are many static site generators available. But I felt Gatsby is very easy to learn and maintain.&lt;/p&gt;
 &lt;p&gt;In this tutorial, we will learn&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Getting Started&lt;/li&gt;
