@@ -3,7 +3,7 @@ title: How to create a static blog using Gatsby
 date: "2019-07-27T21:26:56.354Z"
 template: post
 draft: false
-slug: posts/how-to-create-a-static-blog-using-gatsby/
+slug: "how-to-create-a-static-blog-using-gatsby"
 category: Blogging
 tags:
   - "Blogging"

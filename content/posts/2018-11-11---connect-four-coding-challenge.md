@@ -3,7 +3,7 @@ title: Connect Four Coding Challenge
 date: "2018-11-11T23:05:20-08:00"
 template: post
 draft: false
-slug: posts/connect-four-coding-challenge/
+slug: "connect-four-coding-challenge"
 category: Game Development
 tags:
   - "Blogging"
