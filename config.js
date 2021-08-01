@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://sukruthmk.com/blog/',
   pathPrefix: '/blog',
   title: 'Blog by Sukruth M K',
   subtitle: '',
@@ -30,11 +30,21 @@ module.exports = {
     bio: 'I’m a full stack developer and hobby designer',
     contacts: {
       email: 'sukruthkrishna@gmail.com',
-      telegram: '',
+      facebook: '#',
+      telegram: '#',
       twitter: 'sukruthmk',
       github: 'sukruthmk',
       rss: '',
-      vkontakte: ''
+      vkontakte: '',
+      linkedin: '#',
+      instagram: '#',
+      line: '',
+      gitlab: '',
+      weibo: '',
+      codepen: '',
+      youtube: '',
+      soundcloud: '',
+      medium: '',
     }
   }
 };

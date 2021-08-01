@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content`,
-        name: 'pages'
+        path: `${__dirname}/static`,
+        name: 'assets'
       }
     },
     {
@@ -32,15 +32,15 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'css',
-        path: `${__dirname}/static/css`
+        path: `${__dirname}/content`,
+        name: 'pages'
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'assets',
-        path: `${__dirname}/static`
+        name: 'css',
+        path: `${__dirname}/static/css`
       }
     },
     {
@@ -57,16 +57,18 @@ module.exports = {
             }
           }
         `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allMarkdownRemark } }) => allMarkdownRemark.edges.map((edge) => Object.assign({}, edge.node.frontmatter, {
+        feeds: [{
+          serialize: ({ query: { site, allMarkdownRemark } }) => (
+            allMarkdownRemark.edges.map((edge) => ({
+              ...edge.node.frontmatter,
               description: edge.node.frontmatter.description,
               date: edge.node.frontmatter.date,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
               custom_elements: [{ 'content:encoded': edge.node.html }]
-            })),
-            query: `
+            }))
+          ),
+          query: `
               {
                 allMarkdownRemark(
                   limit: 1000,
@@ -91,9 +93,9 @@ module.exports = {
                 }
               }
             `,
-            output: '/rss.xml'
-          }
-        ]
+          output: '/rss.xml',
+          title: siteConfig.title
+        }]
       }
     },
     {
@@ -111,8 +113,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 960,
-              withWebp: true,
-              ignoreFileExtensions: []
+              withWebp: true
             }
           },
           {
@@ -120,14 +121,6 @@ module.exports = {
             options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
           },
           'gatsby-remark-autolink-headers',
-          'gatsby-plugin-flow',
-          {
-            resolve: 'gatsby-remark-embed-gist',
-            options: {
-              username: 'sukruthmk',
-              includeDefaultCss: true
-            }
-          },
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
@@ -194,19 +187,58 @@ module.exports = {
         theme_color: '#F7A046',
         display: 'standalone',
         icon: 'static/photo.jpg'
-      }
+      },
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        workboxConfig: {
+          runtimeCaching: [{
+            // Use cacheFirst since these don't need to be revalidated (same RegExp
+            // and same reason as above)
+            urlPattern: /(\.js$|\.css$|[^:]static\/)/,
+            handler: 'CacheFirst',
+          },
+          {
+            // page-data.json files, static query results and app-data.json
+            // are not content hashed
+            urlPattern: /^https?:.*\/page-data\/.*\.json/,
+            handler: 'StaleWhileRevalidate',
+          },
+          {
+            // Add runtime caching of various other page resources
+            urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+            handler: 'StaleWhileRevalidate',
+          },
+          {
+            // Google Fonts CSS (doesn't end in .css so we need to specify it)
+            urlPattern: /^https?:\/\/fonts\.googleapis\.com\/css/,
+            handler: 'StaleWhileRevalidate',
+          },
+          ],
+        },
+      },
+    },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
       options: {
+        implementation: require('sass'),
         postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {
           camelCase: false
         }
       }
-    }
+    },
+    {
+      resolve: '@sentry/gatsby',
+      options: {
+        dsn: process.env.SENTRY_DSN,
+        tracesSampleRate: 1
+      }
+    },
+    'gatsby-plugin-flow',
+    'gatsby-plugin-optimize-svgs'
   ]
 };

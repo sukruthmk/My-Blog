@@ -1,7 +1,8 @@
-// @flow
+// @flow strict
 import type { Node as ReactNode } from 'react';
 
 export type RenderCallback = {
+  // $FlowFixMe
   render: (data: any) => ReactNode;
 }
 
@@ -33,6 +34,9 @@ export type Node = {
     category?: string,
     tags?: string[],
     title: string,
+    socialImage?: {
+      publicURL: string
+    }
   },
   html: string,
   id: string
