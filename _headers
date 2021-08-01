@@ -93,7 +93,7 @@
   Link: </blog/component---src-templates-categories-list-template-js-2181ec47d28e5c35d3e9.js>; rel=preload; as=script
   Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </blog/page-data/categories/page-data.json>; rel=preload; as=fetch; crossorigin
-/blog/posts/posts/connect-four-coding-challenge/
+/blog/posts/connect-four-coding-challenge
   Link: </blog/webpack-runtime-2c245e7f862f3c3ba95b.js>; rel=preload; as=script
   Link: </blog/styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </blog/framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
@@ -104,8 +104,8 @@
   Link: </blog/cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
   Link: </blog/component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
   Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </blog/page-data/posts/posts/connect-four-coding-challenge/page-data.json>; rel=preload; as=fetch; crossorigin
-/blog/posts/posts/how-to-create-a-static-blog-using-gatsby/
+  Link: </blog/page-data/posts/connect-four-coding-challenge/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/posts/how-to-create-a-static-blog-using-gatsby
   Link: </blog/webpack-runtime-2c245e7f862f3c3ba95b.js>; rel=preload; as=script
   Link: </blog/styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </blog/framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
@@ -116,8 +116,8 @@
   Link: </blog/cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
   Link: </blog/component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
   Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </blog/page-data/posts/posts/how-to-create-a-static-blog-using-gatsby/page-data.json>; rel=preload; as=fetch; crossorigin
-/blog/posts/posts/how-to-deploy-react-apps-to-netlify/
+  Link: </blog/page-data/posts/how-to-create-a-static-blog-using-gatsby/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/posts/how-to-deploy-react-apps-to-netlify
   Link: </blog/webpack-runtime-2c245e7f862f3c3ba95b.js>; rel=preload; as=script
   Link: </blog/styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </blog/framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
@@ -128,8 +128,8 @@
   Link: </blog/cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
   Link: </blog/component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
   Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </blog/page-data/posts/posts/how-to-deploy-react-apps-to-netlify/page-data.json>; rel=preload; as=fetch; crossorigin
-/blog/posts/posts/two-sum/
+  Link: </blog/page-data/posts/how-to-deploy-react-apps-to-netlify/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/posts/two-sum
   Link: </blog/webpack-runtime-2c245e7f862f3c3ba95b.js>; rel=preload; as=script
   Link: </blog/styles-407fe62976dc5310c43e.js>; rel=preload; as=script
   Link: </blog/framework-b2f816f437730bdc94bf.js>; rel=preload; as=script
@@ -140,7 +140,7 @@
   Link: </blog/cd95ea5cbd2c605f26db819f07999610c9ff4310-babf0c2595a064681f8b.js>; rel=preload; as=script
   Link: </blog/component---src-templates-post-template-js-381c1b847824134fa4bd.js>; rel=preload; as=script
   Link: </blog/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </blog/page-data/posts/posts/two-sum/page-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </blog/page-data/posts/two-sum/page-data.json>; rel=preload; as=fetch; crossorigin
 /blog/pages/about/
   Link: </blog/webpack-runtime-2c245e7f862f3c3ba95b.js>; rel=preload; as=script
   Link: </blog/styles-407fe62976dc5310c43e.js>; rel=preload; as=script
