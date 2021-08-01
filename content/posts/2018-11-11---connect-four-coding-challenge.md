@@ -1,16 +1,17 @@
 ---
 title: Connect Four Coding Challenge
-date: '2018-11-11T23:05:20-08:00'
+date: "2018-11-11T23:05:20-08:00"
 template: post
 draft: false
 slug: posts/connect-four-coding-challenge/
 category: Game Development
-tags: 
+tags:
   - "Blogging"
   - "Game Development"
   - "JavaScript"
 description: My thoughts on developing a Connect Four game using JavaScript
 ---
+
 I got a coding challenge from an E-commerce company in the bay area. This was for a Frontend developer position. The challenge was simply to develop a connect four game using only HTML, CSS and Javascript. This is the most common board game.
 
 It is a two-player connection game in which the players first choose a color and then take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs. Connect Four is a solved game. The first player can always win by playing the right moves. [Source Wikipedia]

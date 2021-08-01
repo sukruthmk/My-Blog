@@ -135,14 +135,14 @@ prompt.get(["title", "category", "description"], (err, result) => {
     slug: `posts/${_.slugify(result.title)}/`,
     category: result.category,
     tags: "",
-    description: result.description
+    description: result.description,
   };
 
   postFileStr += yaml.safeDump(frontmatter);
   postFileStr += "---\n";
 
   fs.writeFileSync(`${dir}.md`, postFileStr, {
-    encoding: "utf-8"
+    encoding: "utf-8",
   });
 
   return console.log(dir);
@@ -152,6 +152,7 @@ prompt.get(["title", "category", "description"], (err, result) => {
 This file takes 3 inputs title, category, and description. It automatically generates a markdown file with these values.
 
 Add these dependencies to package.json
+
 ```shell
 npm install prompt moment underscore.string js-yaml fs --save-dev
 ```
