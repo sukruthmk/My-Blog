@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Sukruth M K]]></title><description><![CDATA[Blog by Sukruth M K]]></description><link>https://sukruthmk.com/blog/</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Aug 2021 21:15:55 GMT</lastBuildDate><item><title><![CDATA[Two Sum]]></title><description><![CDATA[Discussing solution for two sum leetcode problem]]></description><link>https://sukruthmk.com/blog//posts/two-sum</link><guid isPermaLink="false">https://sukruthmk.com/blog//posts/two-sum</guid><pubDate>Sun, 07 Jun 2020 21:52:09 GMT</pubDate><content:encoded>&lt;p&gt;Given an array of integers, return &lt;strong&gt;indices&lt;/strong&gt; of the two numbers such that they add up to a specific target.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Sukruth M K]]></title><description><![CDATA[Blog by Sukruth M K]]></description><link>https://sukruthmk.com/blog/</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 01 Aug 2021 21:24:45 GMT</lastBuildDate><item><title><![CDATA[Two Sum]]></title><description><![CDATA[Discussing solution for two sum leetcode problem]]></description><link>https://sukruthmk.com/blog//posts/two-sum</link><guid isPermaLink="false">https://sukruthmk.com/blog//posts/two-sum</guid><pubDate>Sun, 07 Jun 2020 21:52:09 GMT</pubDate><content:encoded>&lt;p&gt;Given an array of integers, return &lt;strong&gt;indices&lt;/strong&gt; of the two numbers such that they add up to a specific target.&lt;/p&gt;
 &lt;p&gt;You may assume that each input would have &lt;strong&gt;*exactly*&lt;/strong&gt; one solution, and you may not use the &lt;em&gt;same&lt;/em&gt; element twice.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Given nums = [2, 7, 11, 15], target = 9,
@@ -47,7 +47,7 @@ return [0, 1].&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/cc4eb9662765463d890c863d77ac0f43/5a190/netlify-auth-popup.png&quot;
+    href=&quot;/static/cc4eb9662765463d890c863d77ac0f43/5a190/netlify-auth-popup.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -58,22 +58,22 @@ return [0, 1].&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/blog/static/cc4eb9662765463d890c863d77ac0f43/8ac56/netlify-auth-popup.webp 240w,
-/blog/static/cc4eb9662765463d890c863d77ac0f43/d3be9/netlify-auth-popup.webp 480w,
-/blog/static/cc4eb9662765463d890c863d77ac0f43/d00b9/netlify-auth-popup.webp 800w&quot;
+              srcset=&quot;/static/cc4eb9662765463d890c863d77ac0f43/8ac56/netlify-auth-popup.webp 240w,
+/static/cc4eb9662765463d890c863d77ac0f43/d3be9/netlify-auth-popup.webp 480w,
+/static/cc4eb9662765463d890c863d77ac0f43/d00b9/netlify-auth-popup.webp 800w&quot;
               sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/blog/static/cc4eb9662765463d890c863d77ac0f43/8ff5a/netlify-auth-popup.png 240w,
-/blog/static/cc4eb9662765463d890c863d77ac0f43/e85cb/netlify-auth-popup.png 480w,
-/blog/static/cc4eb9662765463d890c863d77ac0f43/5a190/netlify-auth-popup.png 800w&quot;
+            srcset=&quot;/static/cc4eb9662765463d890c863d77ac0f43/8ff5a/netlify-auth-popup.png 240w,
+/static/cc4eb9662765463d890c863d77ac0f43/e85cb/netlify-auth-popup.png 480w,
+/static/cc4eb9662765463d890c863d77ac0f43/5a190/netlify-auth-popup.png 800w&quot;
             sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/blog/static/cc4eb9662765463d890c863d77ac0f43/5a190/netlify-auth-popup.png&quot;
+            src=&quot;/static/cc4eb9662765463d890c863d77ac0f43/5a190/netlify-auth-popup.png&quot;
             alt=&quot;Netlify auth popup&quot;
             title=&quot;Netlify auth popup&quot;
             loading=&quot;lazy&quot;
@@ -248,7 +248,7 @@ prompt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/7be202fb8678db23d6322dd618a6231a/b4294/connect-four-game.jpg&quot;
+    href=&quot;/static/7be202fb8678db23d6322dd618a6231a/b4294/connect-four-game.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -259,22 +259,22 @@ prompt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/blog/static/7be202fb8678db23d6322dd618a6231a/8ac56/connect-four-game.webp 240w,
-/blog/static/7be202fb8678db23d6322dd618a6231a/d3be9/connect-four-game.webp 480w,
-/blog/static/7be202fb8678db23d6322dd618a6231a/e88ff/connect-four-game.webp 600w&quot;
+              srcset=&quot;/static/7be202fb8678db23d6322dd618a6231a/8ac56/connect-four-game.webp 240w,
+/static/7be202fb8678db23d6322dd618a6231a/d3be9/connect-four-game.webp 480w,
+/static/7be202fb8678db23d6322dd618a6231a/e88ff/connect-four-game.webp 600w&quot;
               sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/blog/static/7be202fb8678db23d6322dd618a6231a/09b79/connect-four-game.jpg 240w,
-/blog/static/7be202fb8678db23d6322dd618a6231a/7cc5e/connect-four-game.jpg 480w,
-/blog/static/7be202fb8678db23d6322dd618a6231a/b4294/connect-four-game.jpg 600w&quot;
+            srcset=&quot;/static/7be202fb8678db23d6322dd618a6231a/09b79/connect-four-game.jpg 240w,
+/static/7be202fb8678db23d6322dd618a6231a/7cc5e/connect-four-game.jpg 480w,
+/static/7be202fb8678db23d6322dd618a6231a/b4294/connect-four-game.jpg 600w&quot;
             sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
             type=&quot;image/jpeg&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/blog/static/7be202fb8678db23d6322dd618a6231a/b4294/connect-four-game.jpg&quot;
+            src=&quot;/static/7be202fb8678db23d6322dd618a6231a/b4294/connect-four-game.jpg&quot;
             alt=&quot;Connect 4 Image&quot;
             title=&quot;Connect 4 Image&quot;
             loading=&quot;lazy&quot;
@@ -290,7 +290,7 @@ prompt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/48711/sukruth-connect-four-game.png&quot;
+    href=&quot;/static/bfc63e5dbcdb7b2898987e431e7539e2/48711/sukruth-connect-four-game.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -301,20 +301,20 @@ prompt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/8ac56/sukruth-connect-four-game.webp 240w,
-/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/25604/sukruth-connect-four-game.webp 459w&quot;
+              srcset=&quot;/static/bfc63e5dbcdb7b2898987e431e7539e2/8ac56/sukruth-connect-four-game.webp 240w,
+/static/bfc63e5dbcdb7b2898987e431e7539e2/25604/sukruth-connect-four-game.webp 459w&quot;
               sizes=&quot;(max-width: 459px) 100vw, 459px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/8ff5a/sukruth-connect-four-game.png 240w,
-/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/48711/sukruth-connect-four-game.png 459w&quot;
+            srcset=&quot;/static/bfc63e5dbcdb7b2898987e431e7539e2/8ff5a/sukruth-connect-four-game.png 240w,
+/static/bfc63e5dbcdb7b2898987e431e7539e2/48711/sukruth-connect-four-game.png 459w&quot;
             sizes=&quot;(max-width: 459px) 100vw, 459px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/blog/static/bfc63e5dbcdb7b2898987e431e7539e2/48711/sukruth-connect-four-game.png&quot;
+            src=&quot;/static/bfc63e5dbcdb7b2898987e431e7539e2/48711/sukruth-connect-four-game.png&quot;
             alt=&quot;Game Screenshot&quot;
             title=&quot;Game Screenshot&quot;
             loading=&quot;lazy&quot;
