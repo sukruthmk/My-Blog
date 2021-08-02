@@ -7,9 +7,9 @@ draft: false
 date: 2021-08-01T23:56:22.885Z
 description: This tutorial will help you if you need to upgrade your node.js
   version in your Mac
-category: Development
+category: Web Development
 tags:
-  - Development
+  - Web Development
   - node.js
 ---
 Follow these commands to upgrade your node.js version
