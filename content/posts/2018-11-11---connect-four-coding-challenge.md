@@ -1,14 +1,14 @@
 ---
 title: Connect Four Coding Challenge
-date: "2018-11-11T23:05:20-08:00"
+date: 2018-11-11T23:05:20-08:00
 template: post
 draft: false
-slug: "connect-four-coding-challenge"
+slug: connect-four-coding-challenge
 category: Game Development
 tags:
-  - "Blogging"
-  - "Game Development"
-  - "JavaScript"
+  - Blogging
+  - Game Development
+  - JavaScript
 description: My thoughts on developing a Connect Four game using JavaScript
 ---
 

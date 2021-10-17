@@ -1,15 +1,15 @@
 ---
 title: How to deploy React apps to Netlify
-date: "2019-08-18T21:22:31.553Z"
+date: 2019-08-18T21:22:31.553Z
 template: post
 draft: false
-slug: "how-to-deploy-react-apps-to-netlify"
+slug: how-to-deploy-react-apps-to-netlify
 category: Deployment
 tags:
-  - "Web Development"
-  - "React"
-  - "Netlify"
-  - "Deployment"
+  - Web Development
+  - React
+  - Netlify
+  - Deployment
 description: Steps to build a production React app and deploy it to Netlify
 ---
 
