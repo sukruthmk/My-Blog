@@ -2,7 +2,7 @@
 template: post
 title: Vanilla Binary Search
 slug: vanilla-binary-search
-draft: false
+draft: true
 date: 2021-10-17T22:30:47.257Z
 description: Implementing binary search in JavaScript
 category: Binary Search, Interview Prep
